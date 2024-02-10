@@ -79,6 +79,15 @@ LRESULT CALLBACK platform_window_callback(HWND window, UINT msg, WPARAM wParam, 
             keyID = KEY_W;
             break;
 
+        // Arrow Keys
+        case VK_UP:
+            keyID = KEY_W;
+            break;
+
+        case VK_DOWN:
+            keyID = KEY_S;
+            break;
+
         case VK_ESCAPE:
             keyID = KEY_ESC;
             break;
